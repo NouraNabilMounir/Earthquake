@@ -333,7 +333,6 @@ a {
 }
 #video video {
   display: none;
-  max-width: 90%;
 }
 @keyframes glow{
   0%{
