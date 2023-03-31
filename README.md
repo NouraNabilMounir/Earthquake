@@ -1,5 +1,5 @@
 "# Earthquake" 
-demo: https://nouranabilmounir.github.io/Earthquake/
+# demo: https://nouranabilmounir.github.io/Earthquake/
 Earthquake and how to act during one An earthquake is a sudden shake of the surface of the earth caused by a sudden release of energy in the earth’s lithosphere which creates seismic waves .the earthquakes happens for multiple reasons like induced earthquake which caused by human activity, volcanic earthquake, collapse earthquake.
 
 Earthquake can range in intensity from those that are too weak to even feel to those destructive like the ones that happened in Syria and turkey. Earthquake can also trigger another catastrophe natural disasters like tsunamis, landslides, and fires not only that it can effect on the sustainable development which can reduce the disaster’s risk and casualties it stands for ability of buildings or civil engineering structure to perform their basic operational functions. An aftershocks is an earthquake that happens after the previous earthquake, the stress from the earthquake is the main reason of these aftershocks. The first scale of measuring earthquake magnitudes was developed in 1935 by Charles Francis Richter, the scales used to describe the size of earthquake began in the 1930s
