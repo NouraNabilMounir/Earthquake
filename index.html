@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earthquake</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/destruction.png">
+</head>
+<body>
+  <header id="header">
+    <div class="container2">
+      <a href="#" id="logo">
+        <img src="img/destruction.png" alt="Logo">
+        <span>Earthquake</span>
+      </a>
+      <label for="menuControl"><i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="menuControl">
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#tips">safety tips</a>
+        <a href="#solutions">Modern Solutions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <section id="home">
+    <div class="background-overlay">
+      <div class="container2">
+        <h1>Earthquake</h1>
+        <p>An earthquake is a sudden shake of the surface of the earth caused by a sudden release of energy in the earth's
+          lithosphere which creates seismic waves.
+          The earthquakes happens for multiple reasons like induced earthquake which
+          caused by human activity, volcanic earthquake, collapse earthquake.
+        </p>
+        <footer>
+          <a href="https://en.wikipedia.org/wiki/Earthquake#Preparedness" target="_blank">Read More</a>
+          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-solid fa-play"></i>Start Video</a>
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">What is an Earthquake ?</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <video width="100%" height="240" controls>
+                    <source src="videos/Earthquakes 101 _ National Geographic.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </section>
+  <section id="tips">
+    <div class="container2">
+      <h2>How to Protect Yourself</h2>
+      <div class="slider">
+        <div class="slider-body">
+          <article class="slide1 active">
+            <img src="img/icon/single-bed.png" alt="bed">
+            <h3>in bed</h3>
+            <p>Stay there, hold on and protect your head with a pillow</p>
+          </article>
+          <article class="slide1 active">
+            <img src="img/icon/village.png" alt="outside">
+            <h3>outside</h3>
+            <p>Stay away from buildings, walls and power poles</p>
+          </article>
+          <article class="slid2">
+            <img src="img/icon/sport-car.png" alt="car">
+            <h3>driving</h3>
+            <p>Stop where safe, turn on hazard lights and stay in your vehicle</p>
+          </article>
+          <article class="slid2">
+            <img src="img/icon/disabled-sign.png" alt="wheelchair">
+            <h3>wheelchair</h3>
+            <p>Put the brakes on in a safe place and protect your head</p>
+          </article>
+          <article class="slid3">
+            <img src="img/icon/safety.png" alt="safety">
+            <h3>anywhere</h3>
+            <p>Drop, protect your head and stay there until the shaking stops</p>
+          </article>
+        </div>
+        <div class="navgation">
+          <div class="dot active" onclick="slide1(this)"></div>
+          <div class="dot" onclick="slide2(this)"></div>
+          <div class="dot" onclick="slide3(this)"></div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <section id="video">
+    <div class="background-overlay">
+      <div class="container2">
+        <i class="fa-solid fa-circle-play play" onclick="startVideo(this)" style="color: #d20f0f;"></i>
+        <video height="240" controls>
+          <source src="videos/How to React During an Earthquake.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="solutions">
+    <div class="container2">
+      <img src="img/bed.png" alt="bed">
+      <article>
+        <h2>Modern Solutions</h2>
+        <p>There are more ways to avoid dealing with earthquake like the earthquake proof-bed that looks like 
+          a coffin it uses an activation trigger from a sensory box that consists of accelerometers, gyro sensor,
+          microcontrollers and unidirectional tunnel movement sensor.
+        </p>
+      </article>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="overlay">
+      <div class="container2">
+        <div id="contact-info">
+          <h2>Contact us</h2>
+          <p>For more information or ways how to deal during an earthquake or helping please contact us to get every update....</p>
+        </div>
+        <form action="data.php" method="post">
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Email">
+          <input type="text" name="phone" placeholder="Phone">
+          <input type="submit" value="send form">
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container2">
+      <div>
+        <a href="#home">Home</a>
+        <a href="#tips">safety tips</a>
+        <a href="#contact">Contact us</a>
+        <a href="#solutions">Modern Solutions</a>
+      </div>
+      <div>
+        <a href="javascript:;"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+        <a href="javascript:;"><i class="fa-brands fa-twitter"></i>Twitter</a>
+        <a href="javascript:;"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        <a href="javascript:;"><i class="fa-brands fa-youtube"></i>Youtube</a>
+      </div>
+      <div>
+        <input type="text" name="email" placeholder="Enter Your Email*">
+        <a href="javascript:;">Subscribe</a>
+      </div>
+    </div>
+    <hr>
+    <p>&copy; 2023 All Rights Reserved. Noura Nabil</p>
+  </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
